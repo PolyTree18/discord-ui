@@ -220,6 +220,9 @@ You can find more (and better) examples [here](https://github.com/discord-py-ui/
     ## **Changed**
     - SelectedMenu
     > `SelectedMenu.selected_values` are not the raw values that were selected, `SelectMenu.selected_options` are the options of type `SlashOption` that were selected
+    - MISSING => None
+    > All instance values that were `MISSING` by default are now `None`
+
 
 
     </details>
